@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hani1202's Website</title>
+  <style>
+    button {
+      background-color: green;
+      color: white;
+      font-size: 20px;
+      padding: 15px 30px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>Hello! This is Hani1202's website!</h1>
+  <button onclick="showNotification()">Click me!</button>
+
+  <script>
+    function showNotification() {
+      alert("Welcome to Hani1202's website!");
+    }
+  </script>
+</body>
+</html>
